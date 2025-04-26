@@ -807,9 +807,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Rest of your existing JavaScript
 });
-function scrollToSection(fas fa-project-diagram) {
-            const element = document.getElementById(fas fa-project-diagram);
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth' });
-            }
-        }
