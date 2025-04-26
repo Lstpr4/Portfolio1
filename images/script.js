@@ -807,3 +807,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Rest of your existing JavaScript
 });
+document.getElementById('projectsButton').addEventListener('click', function () {
+    document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+});
