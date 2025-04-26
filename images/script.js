@@ -808,7 +808,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Rest of your existing JavaScript
 });
 function scrollToSection(sectionId) {
-            const element = document.getElementById(sectionId);
+            const element = document.getElementById(#projects-section);
             if (element) {
                 element.scrollIntoView({ behavior: 'smooth' });
             }
