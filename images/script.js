@@ -807,6 +807,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Rest of your existing JavaScript
 });
-document.getElementById('projects').addEventListener('click', function () {
-    document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
-});
+function scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
